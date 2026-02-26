@@ -8,7 +8,7 @@
         "languagebutton": "Idioma"
     },
     "introduction": {
-        "greetings": "Olá!<br>Sou Guilherme Sena.",
+        "greetings": "Olá!<br>Sou Guilherme Sena (SharperDev).",
         "description": "Sou um desenvolvedor Unity com habilidades em modelagem 3D usando Blender. Também componho algumas trilhas sonoras utilizando o software FamiStudio, apenas como um hobby.<br><br>Sinta-se à vontade para clicar nos cards para obter informações sobre minhas habilidades ou verificar meus projetos rolando a página para baixo ou diretamente no menu de navegação."
     },
     "skills": {
@@ -95,6 +95,6 @@
         "contactform": "Formulário de contato"
     },
     "footer": {
-        "text": "Guilherme Sena | Todos os direitos reservados.<br>Portfólio versão v2024.03.09"
+        "text": "Guilherme Sena | Todos os direitos reservados.<br>Portfólio versão v2026.02.25"
     }
 }

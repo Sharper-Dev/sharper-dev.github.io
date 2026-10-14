@@ -1,60 +1,13 @@
-main
-{
-    /*Evita parte branca ao dar zoom out extremo*/
-    min-height: 100vh;
-}
-.skill-card
-{
-    opacity: 90%;
-    transition: transform 0.2s;
-}
-.game-card
-{
-    opacity: 90%;
-    transition: transform 0.2s;
-}
-.game-card:hover
-{
-    opacity: 100%;
-    transform: scale(1.02);
-}
-.contact-link
-{
-    opacity: 80%;
-    transition: transform 0.2s;
+.profile-img {
+    width: 60px;
+    height: auto;
 }
 
-.contact-link:hover
-{
-    opacity: 100%;
-    transform: scale(1.01);
-}
-#dropdown-items
-{
-    opacity: 70%;
-}
-#dropdown-items:hover
-{
-    opacity: 100%;
-}
-.skill-card:hover
-{
-    opacity: 100%;
-    transform: scale(1.02);
-    cursor: pointer;
+.main-card {
+    max-width: 900px;
+    max-height: 900px;
 }
 
-.game-card
-{
-    transition: .2s;
-}
-.game-card:hover
-{
-    transform: scale(1.01);
-}
-
-.caption-bg
-{
-    background-color: hsla(0, 0%, 0%, 0.5);
-    border-radius: 10px;
+.footer-text {
+    font-size: clamp(1rem, 2vw, 2rem);
 }

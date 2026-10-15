@@ -1,6 +1,27 @@
+@font-face {
+	font-family: 'PFSquareSansPro';
+	src: url('../fonts/PFSquareSansPro-Regular.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'PFSquareSansProBold';
+	src: url('../fonts/PFSquareSansPro-Bold.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background:
+    linear-gradient(to bottom, #1876a6 0%, #1876a6 10%, #000000 90%);
+}
+.glass-card {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
 .profile-img {
-    width: 60px;
-    height: auto;
+    width: 90px;
 }
 
 .main-card {
@@ -9,5 +30,10 @@
 }
 
 .footer-text {
+    font-family: 'PFSquareSansPro', sans-serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+.footer-name {
+    font-family: 'PFSquareSansProBold', sans-serif;
     font-size: clamp(1rem, 2vw, 2rem);
 }

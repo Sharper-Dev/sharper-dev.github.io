@@ -12,13 +12,32 @@
     font-style: normal;
     font-display: swap;
 }
+
 body {
+    cursor: url('../cursors/wii_cursor.cur'), default;
+    background-attachment: fixed;
     background:
-    linear-gradient(to bottom, #1876a6 0%, #1876a6 10%, #000000 90%);
+    linear-gradient(to bottom, #1774a3 0%, #0c3d54 60%, #000000 90%);
 }
 .glass-card {
-    backdrop-filter: blur(1000px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(15, 45, 75, 0.35) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;    
+}
+
+.project-link {
+    cursor: url('../cursors/wii_cursor_open.cur'), pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    transform: translateY(-5px); /* Move o card levemente para cima */
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important; /* Aumenta a sombra */
+        background-color: rgba(255, 255, 255, 0.15) !important;
 }
 .profile-img {
     width: 90px;
@@ -26,7 +45,7 @@ body {
 
 .main-card {
     max-width: 900px;
-    min-height: 75%;
+    min-height: 75vh;
 }
 
 .footer-text {
@@ -36,4 +55,66 @@ body {
 .footer-name {
     font-family: 'PFSquareSansProBold', sans-serif;
     font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.bubbles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -60px;
+    width: var(--size);
+    height: var(--size);
+    left: var(--left);
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4) 0%, rgba(31, 172, 250, 0.15) 40%, rgba(15, 105, 170, 0.3) 100%);
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.8),
+                inset -8px -8px 16px rgba(10, 95, 160, 0.6),
+                0 0 10px rgba(31, 172, 250, 0.3);
+    animation: rise var(--duration) infinite ease-in-out;
+    animation-delay: var(--delay);
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(-130vh) translateX(20px) scale(1.05);
+        opacity: 0;
+    }
+}
+
+.sinemation {
+    transform: translateY(2px);
+    animation: floating 3s infinite ease-in-out;
+    animation-delay: var(--delay);
+}
+
+@keyframes floating {
+    0%{
+        transform: translateY(2px);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(2px);
+    }
 }

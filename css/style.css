@@ -1,18 +1,3 @@
-@font-face {
-	font-family: 'PFSquareSansPro';
-	src: url('../fonts/PFSquareSansPro-Regular.woff2') format('woff2');
-	font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-	font-family: 'PFSquareSansProBold';
-	src: url('../fonts/PFSquareSansPro-Bold.woff2') format('woff2');
-	font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
     cursor: url('../cursors/wii_cursor.cur'), default;
     background-attachment: fixed;
@@ -25,18 +10,22 @@ body {
     -webkit-backdrop-filter: blur(12px);
 }
 
-.project-card {
+.global-font {
+    font-family: 'Outfit', sans-serif;
+}
+
+.hover-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;    
 }
 
-.project-link {
-    cursor: url('../cursors/wii_cursor_open.cur'), pointer;
+.link {
+    cursor: url('../cursors/wii_cursor_blue.cur'), pointer;
 }
 
-.project-card:hover {
+.hover-card:hover {
     transform: scale(1.02);
-    transform: translateY(-5px); /* Move o card levemente para cima */
-        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important; /* Aumenta a sombra */
+    transform: translateY(-5px);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
         background-color: rgba(255, 255, 255, 0.15) !important;
 }
 .profile-img {
@@ -84,37 +73,8 @@ body {
     animation-delay: var(--delay);
 }
 
-@keyframes rise {
-    0% {
-        transform: translateY(0) scale(1);
-        opacity: 0;
-    }
-    20% {
-        opacity: 0.6;
-    }
-    80% {
-        opacity: 0.6;
-    }
-    100% {
-        transform: translateY(-130vh) translateX(20px) scale(1.05);
-        opacity: 0;
-    }
-}
-
 .sinemation {
     transform: translateY(2px);
     animation: floating 3s infinite ease-in-out;
     animation-delay: var(--delay);
-}
-
-@keyframes floating {
-    0%{
-        transform: translateY(2px);
-    }
-    50% {
-        transform: translateY(-2px);
-    }
-    100% {
-        transform: translateY(2px);
-    }
 }

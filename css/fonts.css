@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+	font-family: 'PFSquareSansPro';
+	src: url('../fonts/PFSquareSansPro-Regular.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'PFSquareSansProBold';
+	src: url('../fonts/PFSquareSansPro-Bold.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

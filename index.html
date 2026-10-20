@@ -3,16 +3,32 @@
 <html lang="pt-br" data-bs-theme="dark">
 
 <head>
-  <title>the sharper channel</title>
-  <meta charset="UTF-8"/>
-  <meta name="description" content="Sharper Dev Portfolio">
-  <meta name="keywords" content="Guilherme Sena, SharperDev, Sharper-Dev, Game Dev, Unity, C#, Desenvolvedor de Jogos, Blender, FamiStudio, Lua">
-  <meta name="author" content="Guilherme Sena (SharperDev)">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the sharper channel</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+    <meta name="description" content="The Sharper Dev Channel. See the active projects and other projects.">
+    <meta name="keywords" content="Guilherme Sena, SharperDev, Sharper-Dev, Game Dev, Unity, C#, Desenvolvedor de Jogos, Lua, Brasil, Brazil, Nintendo 3DS">
+    <meta name="author" content="Guilherme Sena (SharperDev)">
+    <meta name="robots" content="index, follow">
 
-  <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sharper.dev.br/">
+    <meta property="og:title" content="Sharper Dev | Game & Software Developer">
+    <meta property="og:description" content="Explore active projects and games in Unity, C#, and Lua developed by Guilherme Sena (Sharper Dev).">
+    <meta property="og:image" content="https://sharper.dev.br/images/profile.png">
+        
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sharper Dev | Game & Software Developer">
+    <meta name="twitter:description" content="Game and software development portfolio featuring Unity, C#, and Lua projects.">
+    <meta name="twitter:image" content="https://sharper.dev.br/images/profile.png">
+      
+    <meta name="theme-color" content="#0d253f">      
+
+<link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/language.js"></script>
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/animations.css">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -35,20 +51,155 @@
         <div class="bubble" style="--size: 55px; --left: 82%; --duration: 11s; --delay: 2.7s;"></div>
         <div class="bubble" style="--size: 18px; --left: 95%; --duration: 4.8s; --delay: 1.2s;"></div>
     </div>
-    <main class="flex-grow-1 d-flex justify-content-center align-items-center">
-        <div class="container">
-              <div class="row">
-                <div class="col-8 mx-auto">
-                  <h1 class="text-center mt-3 rounded-5">
-                      Under Construction...
-                  </h1>
-                  <p class="lead justify-content-center pb-2 mt-5">
-                      This website is currently under construction.
-                      As an alternative, you can check out my <a href="https://github.com/Sharper-Dev">GitHub</a>.
-                  </p>
+    <main class="flex-grow-1 d-flex justify-content-center align-items-center global-font">
+        <!--Main card-->
+        <div class="card main-card glass-card w-75 bg-dark bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg">
+            <div class="card-body p-4">
+                <!--Card header-->
+                <div class="d-flex align-items-center gap-3">
+                    <img src="images/profile.png" alt="Profile Photo" class="rounded-circle border border-light border-opacity-25 border-2" width="90">
+                    <div class="d-flex flex-column">
+                        <h1 class="m-0 fs-3">Sharper Dev</h1>
+                        <div class="d-flex gap-2 align-items-center mt-1">
+                            <img src="images/Unity.png" class="sinemation" style="--delay: 0s;" width="25">
+                            <img src="images/lua.webp" class="sinemation" style="--delay: 0.3s;" width="25">
+                            <img src="images/csharp.png" class="sinemation" style="--delay: 0.5s;"width="25">
+                        </div>
+                        <p class="m-0 mt-1 text-light text-opacity-75 fs-6">Unity, Lua and C# Developer</p>
+                    </div>
                 </div>
-              </div>
+                <!--end Card Header-->
+                <hr class="border-light border-opacity-25">
+
+                <!--Active Projects-->
+                <div class="">
+                    <h2 class="fs-4 global-font">Active projects</h2>
+                    <div class="d-flex flex-wrap gap-3 align-items-center justify-content-evenly">
+                        <!--Project 1 Card-->
+                        <div class="card glass-card hover-card bg-light bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg overflow-hidden position-relative" style="width: 22rem; min-height: 8rem;">
+                            <a href="https://github.com/Sharper-Dev/KiraStudioPublic" target="_blank" class="link text-decoration-none text-light stretched-link d-flex flex-column h-100">
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="p-3">
+                                      <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                      </svg> KiraStudioPublic</h5>
+                                      <p class="card-text fs-6">A fork to localize KiraStudio to portuguese.</p>
+                                  </div>
+                                  <div class="mt-auto bg-white bg-opacity-10 py-2 px-3 d-flex align-items-center justify-content-center rounded-bottom-4">
+                                        <img class="rounded-1" alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sharper-Dev/KiraStudioPublic/main?style=for-the-badge&labelColor=2b3e50&color=e0e1dd">
+                                  </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Project 1 Card-->
+
+                        <!--Project 2 Card-->
+                        <div class="card glass-card hover-card bg-light bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg overflow-hidden position-relative" style="width: 22rem; min-height: 8rem;">
+                            <a href="https://github.com/Sharper-Dev/sharper-dev.github.io" target="_blank" class="link text-decoration-none text-light stretched-link d-flex flex-column h-100">
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="p-3">
+                                      <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                      </svg> sharper-dev.github.io</h5>
+                                      <p class="card-text">My portfolio website.</p>
+                                  </div>
+                                  <div class="mt-auto bg-white bg-opacity-10 py-2 px-3 d-flex align-items-center justify-content-center rounded-bottom-4">
+                                        <img class="rounded-1" alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sharper-Dev/sharper-dev.github.io/dev?style=for-the-badge&labelColor=2b3e50&color=e0e1dd">
+                                  </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Project 2 Card-->
+                    </div>
+                </div>
+                <!--end Active Projects-->
+                <hr class="border-light border-opacity-25">
+                <!--Other Projects-->
+                <div class="mt-3">
+                    <h2 class="fs-4 ">Other Projects</h2>
+                    <div class="d-flex flex-wrap gap-3 align-items-center justify-content-evenly">
+                        <!--Project 1 Card-->
+                        <div class="card glass-card hover-card bg-light bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg overflow-hidden position-relative" style="width: 16rem; min-height: 9rem;">
+                            <a href="https://github.com/Sharper-Dev/Tile-Puzzle-Ultimate-For-3DS" target="_blank" class="link text-decoration-none text-light stretched-link d-flex flex-column h-100">
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="p-3">
+                                      <h5 class="card-title fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                      </svg> Tile Puzzle Ultimate for 3DS</h5>
+                                      <p class="card-text">Tile Puzzle Ultimate port for Nintendo 3DS.</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Project 1 Card-->
+                        
+                        <!--Project 2 Card-->
+                        <div class="card glass-card hover-card bg-light bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg overflow-hidden position-relative" style="width: 16rem; min-height: 9rem;">
+                            <a href="https://github.com/Sharper-Dev/Micro2D-Engine" target="_blank" class="link text-decoration-none text-light stretched-link d-flex flex-column h-100">
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="p-3">
+                                      <h5 class="card-title fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                      </svg> Micro2D Engine</h5>
+                                      <p class="card-text">A lightweight 2D micro-engine written in Lua, designed for the Nintendo 3DS.</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Project 2 Card-->
+                        <!--Project 3 Card-->
+                        <div class="card glass-card hover-card bg-light bg-opacity-10 border border-light border-opacity-25 rounded-4 shadow-lg overflow-hidden position-relative" style="width: 16rem; min-height: 9rem;">
+                            <a href="https://github.com/Sharper-Dev/Open-Tile-Puzzle-Ultimate" target="_blank" class="link text-decoration-none text-light stretched-link d-flex flex-column h-100">
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="p-3">
+                                      <h5 class="card-title fs-6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                      </svg> Open Tile Puzzle Ultimate</h5>
+                                      <p class="card-text">The original Unity version of Tile Puzzle Ultimate.</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--end Project 3 Card-->
+                    </div>
+                </div>
+                <!--end Other Projects-->
+                <hr class="border-light border-opacity-25">
+                <!-- Card Footer / Contact Info -->
+                <div class="d-flex flex-wrap align-items-center justify-content-center gap-3 pt-2">
+                    <a href="mailto:contato@sharper.dev.br" class="link hover-card text-light text-decoration-none d-flex align-items-center justify-content-center gap-2 bg-white bg-opacity-10 px-3 py-2 rounded-3 hover-effect" style="width: 10rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.756Zm3.436-.586L16 11.801V4.697l-5.803 3.547Z"/>
+                        </svg>
+                        <span class="fs-6">E-mail</span>
+                    </a>
+                    
+                    <a href="https://wa.me/+5511916385961" class="link hover-card text-light text-decoration-none d-flex align-items-center justify-content-center gap-2 bg-white bg-opacity-10 px-3 py-2 rounded-3 hover-effect" style="width: 10rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.012-.305.087-.403.089-.088.197-.232.296-.348.1-.113.133-.197.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.078.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                        </svg>
+                        <span class="fs-6">WhatsApp</span>
+                    </a>
+
+                    <a href="https://github.com/Sharper-Dev" class="link hover-card text-light text-decoration-none d-flex align-items-center justify-content-center gap-2 bg-white bg-opacity-10 px-3 py-2 rounded-3 hover-effect" style="width: 10rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 
+                            3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        <span class="fs-6">GitHub</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sharperdev/" class="link hover-card text-light text-decoration-none d-flex align-items-center justify-content-center gap-2 bg-white bg-opacity-10 px-3 py-2 rounded-3 hover-effect" style="width: 10rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                        <span class="fs-6">LinkedIn</span>
+                    </a>
+                </div>
+                <!-- end Card Footer / Contact Info -->
             </div>
+        </div>
+        <!--end Main card-->
     </main>
 
     <footer class="py-2">

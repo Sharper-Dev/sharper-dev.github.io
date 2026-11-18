@@ -1,8 +1,8 @@
 {
-  "bio": "Unity, Lua and C# Developer",
+  "bio": "Backend & Systems Developer | C# (.NET) & Lua",
   "active-projects": "Active Projects",
-  "active-project1-description": "A fork to localize KiraStudio to portuguese.",
-  "active-project2-description": "Repository where this portfolio is hosted.",
+  "active-project1-description": "A fork to localize the KiraStudio software to portuguese.",
+  "active-project2-description": "ASP.NET RESTful API that simulates a digital wallet for demonstration.",
   "other-projects": "Other Projects",
   "other-project1-description": "Tile Puzzle Ultimate port for Nintendo 3DS.",
   "other-project2-description": "A lightweight 2D micro-engine written in Lua, designed for the Nintendo 3DS.",

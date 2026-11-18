@@ -1,8 +1,8 @@
 {
-  "bio": "Desenvolvedor Unity, Lua e C#",
+  "bio": "Desenvolvedor de Sistemas & Backend | C# (.NET) & Lua",
   "active-projects": "Projetos Ativos",
   "active-project1-description": "Fork para traduzir o KiraStudio para português.",
-  "active-project2-description": "Repositório no qual está hospedado este portfólio.",
+  "active-project2-description": "API RESTful ASP.NET que simula uma carteira digital para demonstração.",
   "other-projects": "Outros Projetos",
   "other-project1-description": "Port do Tile Puzzle Ultimate para o Nintendo 3DS.",
   "other-project2-description": "Uma micro-engine 2D leve escrita em Lua, desenhada para o Nintendo 3DS.",
